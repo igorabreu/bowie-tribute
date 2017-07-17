@@ -1,0 +1,26 @@
+.App {
+  .bgImage{
+    position: absolute;
+    z-index: -999;
+    filter: blur(15px);
+    transform: scale(1.1); 
+    height: 100vh;
+    width: 100vw;
+  }
+  .mainImage {
+    height: 100vh;
+    width: 100vw;
+    max-width: 1000px;
+    margin-left: 50%;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
+  }
+  .loading{
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%) translateY(-50%);
+    transform: translate(-50%) translateY(-50%);
+    top: 50%;    
+  }
+}
+
